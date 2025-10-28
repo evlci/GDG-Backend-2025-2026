@@ -12,12 +12,10 @@ GDG-Backend-Project/
 │
 ├── HTML/                
 │   ├── Week1/            
-│   │   ├── Assignment1/   
-│   │   ├── Assignment2/    
+│   │   ├── Assignment1/    
 │   │
 │   ├── Week2/             
 │   │   ├── Assignment1/
-│   │   ├── Assignment2/
 │   │
 │   ├── Week3/            
 │   │   └── Assignment1/
@@ -32,4 +30,7 @@ GDG-Backend-Project/
 ---
 📌 Project still in progress — more coming soon!
 
-✍️ *Created by Muhammad Sakr — GDG
+---
+
+<p align="center">✨ Made with ❤️ for <strong>GDG</strong> ✨</p>
+
