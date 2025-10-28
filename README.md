@@ -7,27 +7,26 @@ The goal of this repo is to track my learning journey and build a solid foundati
 ---
 
 ## 📁 Directory Structure
-## 📁 Directory Structure
 
 GDG-Backend-Project/
 │
-├── HTML/                  # 🌐 Frontend practice & tasks
-│   ├── Week1/             # 📅 First training week
-│   │   ├── Assignment1/   # 🧩 Task 1
-│   │   ├── Assignment2/   # 🧩 Task 2
-│   │   └── Assignment3/   # 🧩 Task 3
+├── HTML/                
+│   ├── Week1/            
+│   │   ├── Assignment1/   
+│   │   ├── Assignment2/  
+│   │   └── Assignment3/   
 │   │
-│   ├── Week2/             # 📅 Second training week
+│   ├── Week2/             
 │   │   ├── Assignment1/
 │   │   ├── Assignment2/
 │   │   └── Assignment3/
 │   │
-│   ├── Week3/             # 📅 Third training week
+│   ├── Week3/            
 │   │   └── Assignment1/
 │   │
-│   └── Final-Season/      # 🏁 Final project
+│   └── Final-Season/     
 │
-└── README.md              # 📖 Project documentation
+└── README.md             
 
 
 ---
