@@ -13,13 +13,11 @@ GDG-Backend-Project/
 ├── HTML/                
 │   ├── Week1/            
 │   │   ├── Assignment1/   
-│   │   ├── Assignment2/  
-│   │   └── Assignment3/   
+│   │   ├── Assignment2/    
 │   │
 │   ├── Week2/             
 │   │   ├── Assignment1/
 │   │   ├── Assignment2/
-│   │   └── Assignment3/
 │   │
 │   ├── Week3/            
 │   │   └── Assignment1/
