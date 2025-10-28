@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Members Table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      text-align: left;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 6px;
+    }
+    th {
+      background-color: #f9f9f9;
+    }
+    .avatar {
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+    }
+    .red { background-color: red; }
+    .blue { background-color: blue; }
+    .black { background-color: black; }
+    a {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <th>Group</th>
+      <th>Avatar</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Character</th>
+      <th>Profile</th>
+    </tr>
+
+    <tr>
+      <td rowspan="3">Ninja</td>
+      <td><div class="avatar red"></div></td>
+      <td>Osama Mohamed</td>
+      <td>o1@nn.sa</td>
+      <td>©</td>
+      <td><a href="#">Profile</a></td>
+    </tr>
+    <tr>
+      <td><div class="avatar red"></div></td>
+      <td>Osama Mohamed</td>
+      <td>o2@nn.sa</td>
+      <td>©</td>
+      <td><a href="#">Profile</a></td>
+    </tr>
+    <tr>
+      <td><div class="avatar blue"></div></td>
+      <td>Shady Nabil</td>
+      <td>s@nn.sa</td>
+      <td>™</td>
+      <td><a href="#">Profile</a></td>
+    </tr>
+
+    <tr>
+      <td>Monsters</td>
+      <td><div class="avatar black"></div></td>
+      <td>Mohamed Ibrahim</td>
+      <td>m@nn.sa</td>
+      <td>®</td>
+      <td><a href="#">Profile</a></td>
+    </tr>
+
+    <tr>
+      <td colspan="5">Total Members</td>
+      <td>3</td>
+    </tr>
+  </table>
+
+</body>
+</html>
