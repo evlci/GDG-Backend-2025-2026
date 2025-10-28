@@ -10,17 +10,17 @@ GDG-Backend-2025-2026/
 │
 ├── HTML/                
 │   ├── Week1/             
-│   │   ├── Assignment1/  
-│   │   ├── Assignment2/  
-│   │   └── Assignment3/   
+│   │    ├── Assignment1/  
+│   │    ├── Assignment2/  
+│   │    └── Assignment3/   
 │   │
 │   ├── Week2/           
-│   │   ├── Assignment1/
-│   │   ├── Assignment2/
-│   │   └── Assignment3/
+│   │    ├── Assignment1/
+│   │    ├── Assignment2/
+│   │    └── Assignment3/
 │   │
 │   ├── Week3/            
-│   │   └── Assignment1/
+│   │    └── Assignment1/
 │   │
 │   └── Final-Season/    
 │
