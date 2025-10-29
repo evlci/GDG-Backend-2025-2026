@@ -1,4 +1,4 @@
-<h1 align="center">🚀 GDG-Backend-Project-and-Assignments</h1>
+<h1 align="center">🚀 GDG Backend 2025-2026 using PHP and Laravel</h1>
 
 <p align="center">
   <b>
