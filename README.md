@@ -1,4 +1,4 @@
-<h1 align="center">🚀 GDG Backend Project & Assignments</h1>
+<h1 align="center">🚀 GDG-Backend-Project-and-Assignments</h1>
 
 <p align="center">
   <b>
