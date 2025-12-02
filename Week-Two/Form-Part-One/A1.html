@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form action="test.py">
+        <div>
+            <label>Username</label>
+            <br>
+            <input type="text" placeholder="Username">
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <br>
+            <input type="password" placeholder="Password">
+        </div>
+        <br>
+        <div>
+            <label>Mobile</label>
+            <br>
+            <input type="number" required value="Mobile" placeholder="Mobile Number" min="0" max="`100" step="20">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <br>
+            <input type="email" required placeholder="Email">
+        </div>
+        <br>
+        <div>
+            <label>Subject</label>
+            <br>
+            <input type="text" placeholder="Subject">
+            <input type="text" value="Subject" placeholder="Subject" hidden>
+        </div>
+        <br>
+        <input type="submit" value="Send Data">
+        <input type="reset" value="delete Data">
+    </form>
+</body>
+</html>
