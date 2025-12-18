@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            counter-reset: myCounter;
+            padding: 50px;
+            font-size: 20px;
+        }
+
+        p {
+            counter-increment: myCounter;
+            background-color: #eee;
+            height: 40px;
+            width: 350px;
+            text-align: center;
+            line-height: 35px;
+            margin: 10px auto;
+            border-right: 5px solid red;
+        }
+
+        p::before {
+        content: counter(myCounter);
+        background-color: red;
+        position: relative;
+        right: 30px;
+        color: white;
+        }
+
+    </style>
+</head>
+<body>
+<p>This Is Very Very Long Product Title</p>
+<p>This Is Very Very Long Product Title</p>
+<p>This Is Very Very Long Product Title</p>
+<p>This Is Very Very Long Product Title</p>
+<p>This Is Very Very Long Product Title</p>
+<p>This Is Very Very Long Product Title</p>
+</body>
+</html>

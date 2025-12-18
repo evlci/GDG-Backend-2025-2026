@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Comment Cards</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            padding: 50px;
+        }
+        
+        p {
+            background-color: #e8e8e8;
+            padding: 25px;
+            margin-bottom: 20px;
+            margin-right: 180px;
+            font-size: 20px;
+            position: relative;
+            border-radius: 5px;
+            border-right: 10px solid #e91e63;
+        }
+        
+        p::before {
+            content: attr(data-person);
+            background-color: #c8c8c8;
+            padding: 25px 30px;
+            position: absolute;
+            right: -180px;
+            top: 0;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        p::after {
+            content: '';
+            position: absolute;
+            right: -60px;
+            top: 20px;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+            border-right: 15px solid #e91e63;
+        }
+    </style>
+</head>
+<body>
+    <p data-person="Osama">This Is Very Very Long Comment Number One</p>
+    <p data-person="Ahmed">This Is Very Very Long Comment Number Two</p>
+    <p data-person="Sayed">This Is Very Very Long Comment Number Three</p>
+</body>
+</html>
