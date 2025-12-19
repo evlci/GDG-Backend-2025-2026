@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+    <style>
+        .parant {
+            background-color: #eee;
+            width: 350px;
+            height: 150px;
+            margin: 60px auto;
+            text-align: center;
+            padding: 20px;
+            transition: margin-top 0.5s linear;
+        }
+
+        .child {
+            background-color: #676767;
+            width: 250px;
+            height: 30px;
+            margin: 10px auto;
+            text-align: center;
+            padding: 2px;
+            transition: margin-top 1s linear 0.5s;
+        }
+
+        .parant:hover {
+            margin-top: 20px;
+        }
+        
+        .parant:hover .child {
+            margin-top: 20px;
+        }
+    </style>
+<body>
+    <div class="parant"> Will go up on hover in half second
+        <div class="child"> Will go down after half second </div>
+    </div>
+</body>
+</html>

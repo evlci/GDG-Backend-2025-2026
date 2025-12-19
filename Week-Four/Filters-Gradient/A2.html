@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .form {
+  width: 600px;
+  margin: auto;
+}
+
+.form input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  background:
+    linear-gradient(#eee, #eee) padding-box,
+    linear-gradient(
+      to right,
+      #f44336 0%,
+      #f44336 50%,
+      #009688 50%,
+      #009688 100%
+    ) border-box;
+  border-bottom: 4px solid transparent;
+  font-size: 20px;
+  filter: grayscale(100%);
+}
+
+.form input:focus {
+  filter: grayscale(0%);
+  caret-color: red;
+}
+
+    </style>
+</head>
+<body>
+<div class="form">
+  <input type="text" placeholder="Elzero">
+  <input type="text" placeholder="Two">
+  <input type="text" placeholder="Three">
+</div>
+</body>
+</html>

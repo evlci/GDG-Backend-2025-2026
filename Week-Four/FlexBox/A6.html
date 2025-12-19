@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Page Layout</title>
+    <style>
+        :root {
+            --header-bg: #f0f0f0;
+            --logo-bg: #6c757d;
+            --content-bg: #d9d9d9;
+            --sidebar-bg: #d9d9d9;
+            --footer-bg: #e8e8e8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+        }
+
+        .page {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .header {
+            background-color: var(--header-bg);
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            background-color: var(--logo-bg);
+            color: white;
+            padding: 15px 25px;
+            font-weight: bold;
+        }
+
+        .links {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        .links li {
+            cursor: pointer;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .main-area {
+            display: flex;
+            gap: 20px;
+            padding: 20px 30px;
+            min-height: 400px;
+        }
+
+        .content {
+            flex: 2;
+            background-color: var(--content-bg);
+            padding: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: var(--sidebar-bg);
+            padding: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .footer {
+            background-color: var(--footer-bg);
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .copyright {
+            color: #333;
+        }
+
+        .design {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <div class="logo">Logo</div>
+            <ul class="links">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <div class="main-area">
+            <div class="content">Content</div>
+            <div class="sidebar">Sidebar</div>
+        </div>
+
+        <div class="footer">
+            <div class="copyright">Copyright 2021</div>
+            <div class="design">Designed By Elzero</div>
+        </div>
+    </div>
+</body>
+</html>

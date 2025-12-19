@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<style>
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-100 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circle-200 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+</style>
+<body>
+    <div class="center-flex" style="height: 300px; background: #eee;">
+    <div class="circle-100" style="background: red;"></div>
+</div>
+
+<div style="position: relative; height: 300px; background: #ddd;">
+    <div class="center-position circle-200" style="background: blue;"></div>
+</div>
+</body>
+</html>

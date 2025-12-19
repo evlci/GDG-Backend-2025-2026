@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+    <style>
+body {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    height: 100vh;
+}
+
+.parent {
+    width: 600px;
+    height: 300px;
+    background: #eee;
+    display: flex;
+    flex-wrap: wrap;               
+    justify-content: space-between; 
+    align-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.parent div {
+    width: 170px;
+    height: 50px;
+    background: #f44336;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+    </style>
+<body>
+<div class="parent">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+</div>
+</body>
+</html>

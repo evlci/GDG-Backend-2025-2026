@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .grid {
+            background-color: #ddd;
+            padding: 20px;
+            width: 850px;
+            height: 450px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 80px 1fr;
+            gap: 20px;
+        }
+
+        .grid li {
+            list-style: none;
+            background-color: #d81b60;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            font-weight: bold;
+        }
+        @media (max-width: 768px) {
+            .grid {
+                width: 100%;
+                height: auto;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto;
+            }
+
+            .grid li {
+                min-height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </div>
+</body>
+</html>

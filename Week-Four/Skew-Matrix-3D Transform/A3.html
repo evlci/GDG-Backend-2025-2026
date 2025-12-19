@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        div {
+  width: 200px;
+  height: 200px;
+  background-color: #607d8b;
+  margin: 100px auto;
+  position: relative;
+  color: white;
+  font-family: Arial;
+}
+
+div::before {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background-color: black;
+  top: -70px;
+  left: 30px;
+  transform: rotate(45deg);
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+}
+
+div::after {
+  content: "Elzero";
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div>Elzero</div>
+</body>
+</html>

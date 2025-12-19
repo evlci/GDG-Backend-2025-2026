@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+body {
+  background-color: #fff;
+}
+
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+
+  margin: 40px auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+}
+
+.grid div {
+  background-color: #607d8b;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+  display: grid;
+  place-items: center;
+}
+
+.grid div:nth-child(1),
+.grid div:nth-child(2),
+.grid div:nth-child(3) {
+  height: 50px;
+}
+    </style>
+</head>
+<body>
+<div class="grid">
+  <div>Element 1</div>
+  <div>Element 2</div>
+  <div>Element 3</div>
+  <div>Element 4</div>
+  <div>Element 5</div>
+  <div>Element 6</div>
+</div>
+</body>
+</html>
